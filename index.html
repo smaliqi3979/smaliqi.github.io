@@ -16,15 +16,17 @@
         }
         .card {
             border: 5px double #000; /* Double border */
-            padding: 20px; /* Space inside the border */
-            border-radius: 10px; /* Rounded corners */
+            padding: 30px; /* Increased padding for more space inside the border */
             background-color: #f9f9f9; /* Slightly off-white background for the card */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for 3D effect */
+            width: 400px; /* Fixed width for the card */
+            max-width: 100%; /* Ensure card does not exceed viewport width */
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
         }
         h3 {
             font-weight: bold;
             font-family: Georgia, serif; /* Font for h3 */
-            margin: 0 0 10px; /* Margin below the heading */
+            margin: 0 0 15px; /* Increased margin below the heading */
         }
         p {
             font-family: Georgia, serif; /* Font for p */
